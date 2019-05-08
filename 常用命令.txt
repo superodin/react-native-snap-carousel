@@ -1,0 +1,49 @@
+npm install http-server 
+http-server -p 18090  指定端口打开
+
+徐毅松  xuys   15014
+韩志强  hanzhiqiang 22037
+史家明  shijm  15729
+
+账号：75081647@qq.com 密码：dr15280739908  蒲公英
+
+adb shell input keyevent 82
+adb devices
+
+pm2 start ecosystem.config.js //启动所有的应用
+pm2 start ecosystem.config.js --only app_1 //启动app_1
+pm2 stop ecosystem.config.js [--only app_1] //停止
+pm2 restart ecosystem.config.js [--only app_1] //重启
+pm2 reload ecosystem.config.js --env pre [--only app_1] //重载
+pm2 delete ecosystem.config.js [--only app_1] //移除
+
+react-native run-android --variant=release
+
+source={{uri:'file:///android_asset/tpl.html'}}
+
+window.location.href和top.location.href
+
+java -jar signapk.jar platform.x509.pem platform.pk8 app-release-unsigned.apk dist.office.apk
+
+adb shell screenrecord /sdcard/filename.mp4
+
+window.parent.func()访问父页面函数
+
+.className:hover .className{}  悬停父元素子元素样式改变
+
+.className:hover+.className{}  悬停兄弟元素兄弟元素样式改变
+
+./gradlew assembleRelease
+
+gradlew clean 
+
+高级js教程 -> es6 -> vue/node/webpack
+
+intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+
+marginHorizontal number 左右外边距
+marginLeft number 左外边距
+marginRight number 右外边距
+marginTop number 上外边距
+marginVertical number 上下外边距
